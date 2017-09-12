@@ -73,9 +73,8 @@ void ParticleFilter::add_prediction_noise(double std_pos[]){
 
   // x_bar(t) ~ p( x_t | u_t, x_{t-1} )
 
-  // By applying deterministic prediction function on x_{t-1},
-  // and then add random gaussian noise, this is equivalent to
-  // drawing random samples from x_bar(t)
+  // First apply deterministic prediction function on x_{t-1},
+  // then draw new sample as new particle using old particle's state as mean and position sigma as variance  
 
   default_random_engine gen;
 
