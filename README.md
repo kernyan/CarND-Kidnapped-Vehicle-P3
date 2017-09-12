@@ -16,15 +16,12 @@ Udacity's Self-Driving Car's Term 2 Simulator
 
 [//]: # (Image References)
 
-[image1]: SimPF_no_asso.gif "Particle filter without association"
-[image2]: SimPF.gif "Particle filter with association"
+[image1]: SimPF.gif "Particle filter with association"
 
 ## Demonstration on Udacity's Term 2 Simulator
 
-### Particle filter without data association
-![alt text][image1]
 ### Particle filter with data association
-![alt text][image2]
+![alt text][image1]
 
 
 ## Mechanism
